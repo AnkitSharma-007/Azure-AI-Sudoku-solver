@@ -1,0 +1,1025 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2021-03-16T10:29:43Z",
+  "lastUpdatedDateTime": "2021-03-16T10:29:46Z",
+  "analyzeResult": {
+    "version": "2.1.0",
+    "readResults": [
+      {
+        "page": 1,
+        "angle": 0,
+        "width": 225,
+        "height": 225,
+        "unit": "pixel",
+        "lines": [
+          {
+            "boundingBox": [ 13, 9, 22, 10, 21, 20, 12, 19 ],
+            "text": "6",
+            "appearance": {
+              "style": {
+                "name": "handwriting",
+                "confidence": 0.785
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 13, 9, 19, 10, 18, 19, 12, 19 ],
+                "text": "6",
+                "confidence": 0.995
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 60, 10, 68, 9, 69, 19, 60, 20 ],
+            "text": "9",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.821
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 60, 9, 65, 9, 67, 19, 60, 20 ],
+                "text": "9",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 108, 10, 117, 11, 117, 20, 108, 20 ],
+            "text": "4",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 109, 10, 114, 10, 114, 20, 108, 19 ],
+                "text": "4",
+                "confidence": 0.997
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 203, 11, 211, 9, 211, 19, 204, 21 ],
+            "text": "1",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.821
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 203, 11, 208, 10, 211, 18, 206, 20 ],
+                "text": "1",
+                "confidence": 0.857
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 13, 34, 21, 34, 20, 45, 12, 44 ],
+            "text": "7",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 13, 34, 19, 34, 18, 45, 12, 44 ],
+                "text": "7",
+                "confidence": 0.996
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 38, 34, 43, 35, 43, 43, 38, 43 ],
+            "text": "1",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 38, 34, 43, 34, 42, 43, 38, 42 ],
+                "text": "1",
+                "confidence": 0.867
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 85, 34, 92, 33, 91, 44, 84, 44 ],
+            "text": "5",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 84, 33, 90, 33, 91, 43, 84, 44 ],
+                "text": "5",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 132, 34, 140, 33, 141, 44, 132, 44 ],
+            "text": "9",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 132, 33, 138, 33, 139, 44, 132, 44 ],
+                "text": "9",
+                "confidence": 0.93
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 157, 34, 164, 34, 163, 44, 156, 44 ],
+            "text": "6",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.821
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 156, 34, 162, 34, 162, 44, 156, 44 ],
+                "text": "6",
+                "confidence": 0.997
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 35, 57, 44, 58, 43, 70, 35, 69 ],
+            "text": "5",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.821
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 36, 57, 43, 58, 42, 70, 35, 69 ],
+                "text": "5",
+                "confidence": 0.996
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 12, 81, 21, 81, 21, 93, 12, 93 ],
+            "text": "2",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 13, 81, 20, 81, 20, 93, 13, 93 ],
+                "text": "2",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 60, 81, 67, 80, 68, 92, 60, 93 ],
+            "text": "7",
+            "appearance": {
+              "style": {
+                "name": "handwriting",
+                "confidence": 0.627
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 60, 80, 66, 80, 68, 92, 60, 93 ],
+                "text": "7",
+                "confidence": 0.997
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 108, 81, 116, 81, 116, 92, 108, 92 ],
+            "text": "8",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 108, 81, 115, 81, 115, 92, 108, 92 ],
+                "text": "8",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 180, 81, 188, 81, 188, 92, 180, 92 ],
+            "text": "9",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 180, 81, 186, 81, 186, 92, 180, 92 ],
+                "text": "9",
+                "confidence": 0.832
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 109, 106, 116, 105, 116, 116, 108, 116 ],
+            "text": "6",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 108, 105, 114, 105, 115, 116, 108, 116 ],
+                "text": "6",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 180, 106, 188, 106, 188, 118, 180, 117 ],
+            "text": "2",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 181, 106, 188, 106, 187, 118, 180, 117 ],
+                "text": "2",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 204, 105, 212, 106, 211, 117, 204, 116 ],
+            "text": "4",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 204, 105, 211, 106, 209, 117, 204, 116 ],
+                "text": "4",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 36, 130, 44, 131, 43, 140, 36, 140 ],
+            "text": "6",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 37, 130, 42, 130, 42, 140, 36, 139 ],
+                "text": "6",
+                "confidence": 0.997
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 211, 129, 212, 140, 203, 141, 203, 130 ],
+            "text": "00",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 212, 129, 212, 138, 203, 139, 203, 129 ],
+                "text": "00",
+                "confidence": 0.13
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 84, 131, 92, 130, 92, 140, 84, 140 ],
+            "text": "9",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 84, 130, 90, 130, 91, 140, 85, 140 ],
+                "text": "9",
+                "confidence": 0.891
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 60, 154, 68, 154, 67, 164, 60, 164 ],
+            "text": "8",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 60, 154, 66, 154, 66, 164, 60, 164 ],
+                "text": "8",
+                "confidence": 0.994
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 157, 154, 164, 154, 164, 164, 157, 165 ],
+            "text": "3",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 157, 154, 163, 154, 163, 165, 157, 165 ],
+                "text": "3",
+                "confidence": 0.998
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 84, 178, 93, 178, 92, 188, 84, 187 ],
+            "text": "4",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 85, 178, 90, 178, 90, 188, 84, 187 ],
+                "text": "4",
+                "confidence": 0.997
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 204, 178, 212, 177, 211, 188, 204, 189 ],
+            "text": "7",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 204, 178, 209, 177, 210, 187, 204, 188 ],
+                "text": "7",
+                "confidence": 0.996
+              }
+            ]
+          },
+          {
+            "boundingBox": [ 107, 201, 116, 201, 116, 213, 107, 213 ],
+            "text": "5",
+            "appearance": {
+              "style": {
+                "name": "other",
+                "confidence": 0.878
+              }
+            },
+            "words": [
+              {
+                "boundingBox": [ 108, 201, 115, 201, 115, 213, 108, 213 ],
+                "text": "5",
+                "confidence": 0.997
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pageResults": [
+      {
+        "page": 1,
+        "tables": [
+          {
+            "rows": 9,
+            "columns": 9,
+            "cells": [
+              {
+                "rowIndex": 0,
+                "columnIndex": 0,
+                "text": "6",
+                "boundingBox": [ 6, 1, 28, 1, 28, 27, 5, 27 ],
+                "elements": [ "#/readResults/0/lines/0/words/0" ]
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 1, 53, 1, 53, 27, 28, 27 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 2,
+                "text": "9",
+                "boundingBox": [ 53, 1, 77, 1, 77, 27, 53, 27 ],
+                "elements": [ "#/readResults/0/lines/1/words/0" ]
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 1, 100, 2, 100, 27, 77, 27 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 4,
+                "text": "4",
+                "boundingBox": [ 100, 2, 124, 2, 124, 27, 100, 27 ],
+                "elements": [ "#/readResults/0/lines/2/words/0" ]
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 2, 148, 2, 148, 27, 124, 27 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 2, 175, 3, 175, 27, 148, 27 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 175, 3, 196, 3, 196, 27, 175, 27 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 0,
+                "columnIndex": 8,
+                "text": "1",
+                "boundingBox": [ 196, 3, 219, 3, 219, 27, 196, 27 ],
+                "elements": [ "#/readResults/0/lines/3/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 0,
+                "text": "7",
+                "boundingBox": [ 5, 27, 28, 27, 28, 51, 5, 51 ],
+                "elements": [ "#/readResults/0/lines/4/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 1,
+                "text": "1",
+                "boundingBox": [ 28, 27, 53, 27, 53, 51, 28, 51 ],
+                "elements": [ "#/readResults/0/lines/5/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 27, 77, 27, 77, 51, 53, 51 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 3,
+                "text": "5",
+                "boundingBox": [ 77, 27, 100, 27, 100, 51, 77, 51 ],
+                "elements": [ "#/readResults/0/lines/6/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 4,
+                "text": "",
+                "boundingBox": [ 100, 27, 124, 27, 124, 51, 100, 51 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 5,
+                "text": "9",
+                "boundingBox": [ 124, 27, 148, 27, 148, 51, 124, 51 ],
+                "elements": [ "#/readResults/0/lines/7/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 6,
+                "text": "6",
+                "boundingBox": [ 148, 27, 175, 27, 175, 51, 148, 51 ],
+                "elements": [ "#/readResults/0/lines/8/words/0" ]
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 175, 27, 196, 27, 196, 51, 175, 51 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 1,
+                "columnIndex": 8,
+                "text": "",
+                "boundingBox": [ 196, 27, 219, 27, 219, 51, 196, 51 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 5, 51, 28, 51, 28, 75, 5, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 1,
+                "text": "5",
+                "boundingBox": [ 28, 51, 53, 51, 53, 75, 28, 75 ],
+                "elements": [ "#/readResults/0/lines/9/words/0" ]
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 51, 77, 51, 77, 75, 53, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 51, 100, 51, 100, 75, 77, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 4,
+                "text": "",
+                "boundingBox": [ 100, 51, 124, 51, 124, 75, 100, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 51, 148, 51, 148, 75, 124, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 51, 175, 51, 174, 75, 148, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 175, 51, 196, 51, 196, 75, 174, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 2,
+                "columnIndex": 8,
+                "text": "",
+                "boundingBox": [ 196, 51, 219, 51, 219, 75, 196, 75 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 0,
+                "text": "2",
+                "boundingBox": [ 5, 75, 28, 75, 28, 99, 5, 99 ],
+                "elements": [ "#/readResults/0/lines/10/words/0" ]
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 75, 53, 75, 53, 99, 28, 99 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 2,
+                "text": "7",
+                "boundingBox": [ 53, 75, 77, 75, 77, 99, 53, 99 ],
+                "elements": [ "#/readResults/0/lines/11/words/0" ]
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 75, 100, 75, 100, 99, 77, 99 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 4,
+                "text": "8",
+                "boundingBox": [ 100, 75, 124, 75, 124, 99, 100, 99 ],
+                "elements": [ "#/readResults/0/lines/12/words/0" ]
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 75, 148, 75, 148, 99, 124, 99 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 75, 174, 75, 174, 99, 148, 99 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 7,
+                "text": "9",
+                "boundingBox": [ 174, 75, 196, 75, 196, 99, 174, 99 ],
+                "elements": [ "#/readResults/0/lines/13/words/0" ]
+              },
+              {
+                "rowIndex": 3,
+                "columnIndex": 8,
+                "text": "",
+                "boundingBox": [ 196, 75, 219, 75, 219, 99, 196, 99 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 5, 99, 28, 99, 28, 124, 4, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 99, 53, 99, 53, 124, 28, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 99, 77, 99, 77, 124, 53, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 99, 100, 99, 100, 124, 77, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 4,
+                "text": "6",
+                "boundingBox": [ 100, 99, 124, 99, 124, 124, 100, 124 ],
+                "elements": [ "#/readResults/0/lines/14/words/0" ]
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 99, 148, 99, 148, 124, 124, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 99, 174, 99, 174, 124, 148, 124 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 7,
+                "text": "2",
+                "boundingBox": [ 174, 99, 196, 99, 196, 124, 174, 124 ],
+                "elements": [ "#/readResults/0/lines/15/words/0" ]
+              },
+              {
+                "rowIndex": 4,
+                "columnIndex": 8,
+                "text": "4",
+                "boundingBox": [ 196, 99, 219, 99, 219, 124, 196, 124 ],
+                "elements": [ "#/readResults/0/lines/16/words/0" ]
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 4, 124, 28, 124, 28, 147, 4, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 1,
+                "text": "6",
+                "boundingBox": [ 28, 124, 53, 124, 53, 147, 28, 147 ],
+                "elements": [ "#/readResults/0/lines/17/words/0" ]
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 124, 77, 124, 77, 147, 53, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 3,
+                "text": "9",
+                "boundingBox": [ 77, 124, 100, 124, 100, 147, 77, 147 ],
+                "elements": [ "#/readResults/0/lines/19/words/0" ]
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 4,
+                "text": "",
+                "boundingBox": [ 100, 124, 124, 124, 124, 147, 100, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 124, 148, 124, 148, 147, 124, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 124, 174, 124, 173, 147, 148, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 174, 124, 196, 124, 196, 147, 173, 147 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 5,
+                "columnIndex": 8,
+                "text": "8",
+                "boundingBox": [ 196, 124, 219, 124, 219, 147, 196, 147 ],
+                "elements": [ "#/readResults/0/lines/18/words/0" ]
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 4, 147, 28, 147, 28, 170, 4, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 147, 53, 147, 53, 170, 28, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 2,
+                "text": "8",
+                "boundingBox": [ 53, 147, 77, 147, 77, 170, 53, 170 ],
+                "elements": [ "#/readResults/0/lines/20/words/0" ]
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 147, 100, 147, 100, 170, 77, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 4,
+                "text": "",
+                "boundingBox": [ 100, 147, 124, 147, 124, 170, 100, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 147, 148, 147, 148, 170, 124, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 6,
+                "text": "3",
+                "boundingBox": [ 148, 147, 173, 147, 173, 170, 148, 170 ],
+                "elements": [ "#/readResults/0/lines/21/words/0" ]
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 173, 147, 196, 147, 196, 170, 173, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 6,
+                "columnIndex": 8,
+                "text": "",
+                "boundingBox": [ 196, 147, 219, 147, 219, 170, 196, 170 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 4, 170, 28, 170, 28, 195, 4, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 170, 53, 170, 53, 195, 28, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 170, 77, 170, 77, 195, 53, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 3,
+                "text": "4",
+                "boundingBox": [ 77, 170, 100, 170, 100, 195, 77, 195 ],
+                "elements": [ "#/readResults/0/lines/22/words/0" ]
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 4,
+                "text": "",
+                "boundingBox": [ 100, 170, 124, 170, 124, 195, 100, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 170, 148, 170, 148, 195, 124, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 170, 173, 170, 172, 195, 148, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 173, 170, 196, 170, 196, 195, 172, 195 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 7,
+                "columnIndex": 8,
+                "text": "7",
+                "boundingBox": [ 196, 170, 219, 170, 219, 195, 196, 195 ],
+                "elements": [ "#/readResults/0/lines/23/words/0" ]
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 0,
+                "text": "",
+                "boundingBox": [ 4, 195, 28, 195, 28, 219, 4, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 1,
+                "text": "",
+                "boundingBox": [ 28, 195, 53, 195, 53, 219, 28, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 2,
+                "text": "",
+                "boundingBox": [ 53, 195, 77, 195, 77, 219, 53, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 3,
+                "text": "",
+                "boundingBox": [ 77, 195, 100, 195, 100, 219, 77, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 4,
+                "text": "5",
+                "boundingBox": [ 100, 195, 124, 195, 124, 219, 100, 219 ],
+                "elements": [ "#/readResults/0/lines/24/words/0" ]
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 5,
+                "text": "",
+                "boundingBox": [ 124, 195, 148, 195, 148, 219, 124, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 6,
+                "text": "",
+                "boundingBox": [ 148, 195, 172, 195, 172, 219, 148, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 7,
+                "text": "",
+                "boundingBox": [ 172, 195, 196, 195, 196, 219, 172, 219 ],
+                "elements": []
+              },
+              {
+                "rowIndex": 8,
+                "columnIndex": 8,
+                "text": "",
+                "boundingBox": [ 196, 195, 219, 195, 219, 219, 196, 219 ],
+                "elements": []
+              }
+            ],
+            "boundingBox": [ 7, 0, 219, 0, 218, 219, 7, 219 ]
+          }
+        ]
+      }
+    ]
+  }
+}
