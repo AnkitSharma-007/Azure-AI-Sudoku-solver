@@ -12,8 +12,6 @@ export class FormRecognizerService {
   }
 
   getSudokuTableFromImage(image: FormData) {
-    return this.http.post(this.baseURL, image).pipe((response) => {
-      return response;
-    });
+    return this.http.post(this.baseURL, image);
   }
 }

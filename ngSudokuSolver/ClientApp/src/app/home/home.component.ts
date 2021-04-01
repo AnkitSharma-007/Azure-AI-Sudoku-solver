@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subject } from 'rxjs';
 import { FormRecognizerService } from '../services/form-recognizer.service';
+import { takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnDestroy {
   gameBoard = [0, 1, 2, 3, 4, 5, 6, 7, 8];
   loading = false;
   imageFile;
@@ -17,6 +19,7 @@ export class HomeComponent implements OnInit {
   DefaultStatus: string;
   imageData = new FormData();
   game = new Array(9);
+  private unsubscribe$ = new Subject();
 
   constructor(private formRecognizerService: FormRecognizerService) {
     this.DefaultStatus = 'Maximum size allowed for the image is 4 MB';
@@ -27,8 +30,6 @@ export class HomeComponent implements OnInit {
       this.game[i] = new Array(9);
     }
   }
-
-  ngOnInit(): void {}
 
   uploadImage(event) {
     this.imageFile = event.target.files[0];
@@ -56,6 +57,7 @@ export class HomeComponent implements OnInit {
 
       this.formRecognizerService
         .getSudokuTableFromImage(this.imageData)
+        .pipe(takeUntil(this.unsubscribe$))
         .subscribe(
           (result: any) => {
             this.game = result;
@@ -71,6 +73,11 @@ export class HomeComponent implements OnInit {
 
   SolveSudoku() {
     this.sudokuSolver(this.game);
+  }
+
+  ngOnDestroy() {
+    this.unsubscribe$.next();
+    this.unsubscribe$.complete();
   }
 
   private sudokuSolver(data) {

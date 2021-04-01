@@ -16,8 +16,14 @@ namespace ngSudokuSolver.Controllers
     [Route("api/[controller]")]
     public class FormRecognizerController : ControllerBase
     {
-        private static readonly string endpoint = "FormRecognizer API endpoint";
-        private static readonly string apiKey = "FormRecognizer API key";
+        static string endpoint;
+        static string apiKey;
+
+        public FormRecognizerController()
+        {
+            endpoint = "FormRecognizer API endpoint";
+            apiKey = "FormRecognizer API key";
+        }
 
         [HttpPost, DisableRequestSizeLimit]
         public async Task<string[][]> Post()
@@ -40,7 +46,7 @@ namespace ngSudokuSolver.Controllers
                         string SudokuLayoutJSON = await GetSudokuBoardLayout(imageFileBytes);
                         if (SudokuLayoutJSON.Length > 0)
                         {
-                            sudokuArray = GetSudokuBoardItmes(SudokuLayoutJSON);
+                            sudokuArray = GetSudokuBoardItems(SudokuLayoutJSON);
                         }
                     }
                 }
@@ -53,14 +59,14 @@ namespace ngSudokuSolver.Controllers
             }
         }
 
-        async Task<string> GetSudokuBoardLayout(byte[] byteData)
+        static async Task<string> GetSudokuBoardLayout(byte[] byteData)
         {
-            HttpClient client = new HttpClient();
+            HttpClient client = new();
             client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", apiKey);
             string uri = endpoint + "formrecognizer/v2.1-preview.3/layout/analyze";
             string LayoutJSON = string.Empty;
 
-            using (ByteArrayContent content = new ByteArrayContent(byteData))
+            using (ByteArrayContent content = new(byteData))
             {
                 HttpResponseMessage response;
                 content.Headers.ContentType = new MediaTypeHeaderValue("image/png");
@@ -69,9 +75,8 @@ namespace ngSudokuSolver.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     HttpHeaders headers = response.Headers;
-                    IEnumerable<string> values;
 
-                    if (headers.TryGetValues("Operation-Location", out values))
+                    if (headers.TryGetValues("Operation-Location", out IEnumerable<string> values))
                     {
                         string OperationLocation = values.First();
                         LayoutJSON = await GetJSON(OperationLocation);
@@ -81,24 +86,22 @@ namespace ngSudokuSolver.Controllers
             return LayoutJSON;
         }
 
-        async Task<string> GetJSON(string endpoint)
+        static async Task<string> GetJSON(string endpoint)
         {
-            using (var client = new HttpClient(new HttpRetryMessageHandler(new HttpClientHandler())))
-            {
-                var request = new HttpRequestMessage();
-                request.Method = HttpMethod.Get;
-                request.RequestUri = new Uri(endpoint);
+            using var client = new HttpClient(new HttpRetryMessageHandler(new HttpClientHandler()));
+            var request = new HttpRequestMessage();
+            request.Method = HttpMethod.Get;
+            request.RequestUri = new Uri(endpoint);
 
-                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", apiKey);
+            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", apiKey);
 
-                var response = await client.SendAsync(request);
-                var result = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var response = await client.SendAsync(request);
+            var result = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
 
-                return result;
-            }
+            return result;
         }
 
-        string[][] GetSudokuBoardItmes(string LayoutData)
+        static string[][] GetSudokuBoardItems(string LayoutData)
         {
             string[][] sudokuArray = GetNewSudokuArray();
             dynamic array = JsonConvert.DeserializeObject(LayoutData);
@@ -114,7 +117,7 @@ namespace ngSudokuSolver.Controllers
             return sudokuArray;
         }
 
-        string[][] GetNewSudokuArray()
+        static string[][] GetNewSudokuArray()
         {
             string[][] sudokuArray = new string[9][];
 
